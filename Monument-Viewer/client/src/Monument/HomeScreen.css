@@ -1,0 +1,12 @@
+.prompt {
+	position: absolute;
+	bottom: 80px;
+	width: 70vw;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-family: 'Kalam';
+	font-size: 20px;
+	backdrop-filter: blur(100px);
+}

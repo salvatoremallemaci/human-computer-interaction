@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+
+.camera-div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+}
+
+#container-circles {
+	display: none;
+}

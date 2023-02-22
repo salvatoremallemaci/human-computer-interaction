@@ -1,0 +1,133 @@
+.titleSuggest {
+    margin-top: 2.2rem;
+    margin-bottom: 1.6rem;
+    font-family: 'Kalam';
+    text-align: center;
+}
+
+.formField {
+    padding-bottom: 1rem;
+    text-align-last: center;
+}
+
+.custom-info-botton {
+    position: absolute;
+    right: 22px;
+    top: 112px;
+    bottom: px;
+    border: 0;
+    color: white;
+    background: linear-gradient(145deg, #597afc, #3051e2);
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+}
+
+.custom-info-botton:hover,
+.custom-info-botton:active {
+    background: linear-gradient(145deg, #3051e2, #597afc);
+    border-color: transparent !important;
+}
+
+.cancelButton {
+    width: 80px;
+    margin-bottom: 2rem;
+    color: var(--bs-body-color);
+    border-color: var(--bs-body-color);
+    background: linear-gradient(145deg, #eeeeee, #c8c8c8);
+}
+
+.cancelButton:hover,
+.cancelButton:active {
+    color: var(--bs-body-color) !important;
+    border-color: var(--bs-body-color) !important;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+}
+
+.sendButton {
+    width: 80px;
+    margin-bottom: 2rem;
+    background: linear-gradient(145deg, #1b905a, #177a4c);
+}
+
+.sendButton:hover,
+.sendButton:active {
+    background: linear-gradient(145deg, #177a4c, #1b905a);
+}
+
+.updateImage {
+    margin-left: 125px;
+}
+
+.modalForm {
+    margin-top: 3rem;
+}
+
+.modal-footer {
+    justify-content: space-evenly;
+}
+
+.modalDone {
+    text-align: center;
+}
+
+.buttonDone {
+    width: fit-content;
+    background: linear-gradient(145deg, #597afc, #3051e2);
+}
+
+.buttonDone:hover,
+.buttonDone:active {
+    background: linear-gradient(145deg, #3051e2, #597afc);
+}
+
+.modalTitleSend {
+    margin-left: 6.5rem;
+}
+
+.buttonModalNotSure {
+    width: 90px;
+    color: var(--bs-body-color);
+    border-color: var(--bs-body-color);
+    background: linear-gradient(145deg, #eeeeee, #c8c8c8);
+}
+
+.buttonModalNotSure:hover,
+.buttonModalNotSure:active {
+    color: var(--bs-body-color) !important;
+    border-color: var(--bs-body-color) !important;
+    background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+}
+
+.buttonModalSure {
+    width: 90px;
+    background: linear-gradient(145deg, #1b905a, #177a4c);
+}
+
+.buttonModalSure:hover,
+.buttonModalSure:active {
+    background: linear-gradient(145deg, #177a4c, #1b905a);
+}
+
+.modalTitleDone {
+    margin-left: 0.8rem;
+}
+
+.link {
+    color: #3051e2;
+    padding-left: 15px;
+}
+
+.titleInfoSuggestAnEdit {
+    font-family: 'Kalam';
+    margin-left: 75px;
+}
+
+.textInfoSuggestAnEdit {
+        height: 50vh;
+        width: 90vw;
+        text-align: justify;
+        overflow-y: scroll;
+}

@@ -1,0 +1,286 @@
+.title {
+	margin-top: 40px;
+	font-family: 'Kalam';
+	font-size: 40px;
+	color: white;
+	/* text-shadow: offset-x | offset-y | blur-radius | color */
+	text-shadow: 0px 1px 3px black;
+}
+
+.sub-title {
+	font-family: 'Kalam';
+	font-size: 20px;
+	color: white;
+	/* text-shadow: offset-x | offset-y | blur-radius | color */
+	text-shadow: 0px 1px 3px black;
+}
+
+.year-selector {
+	width: auto;
+	position: absolute;
+	bottom: 90px;
+	left: 10px;
+	right: 10px;
+	color: white;
+	/* text-shadow: offset-x | offset-y | blur-radius | color */
+	text-shadow: 0px 1px 3px black;
+}
+
+.trasparent-button-1 {
+	position: absolute;
+	right: 290px;
+	top: 365px;
+	bottom: px;
+	border: 0;
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+	outline: none;
+	margin: 0;
+	padding: 0 10px;
+	border-radius: 100px;
+	z-index: 2;
+	height: 23px;
+	width: 23px;
+}
+
+.trasparent-button-1:active {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:focus {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:hover {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:visited {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:focus-within {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:target {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:focus-visible {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1:enabled {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-1::placeholder {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2 {
+	position: absolute;
+	right: 90px;
+	top: 365px;
+	bottom: px;
+	border: 0;
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+	outline: none;
+	margin: 0;
+	padding: 0 10px;
+	border-radius: 100px;
+	z-index: 2;
+	height: 23px;
+	width: 23px;
+}
+
+.trasparent-button-2:active {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:focus {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:hover {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:visited {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:focus-within {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:target {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:focus-visible {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2:enabled {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-2::placeholder {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3 {
+	position: absolute;
+	right: 240px;
+	top: 390px;
+	bottom: px;
+	border: 0;
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+	outline: none;
+	margin: 0;
+	padding: 0 10px;
+	border-radius: 100px;
+	z-index: 2;
+	height: 23px;
+	width: 23px;
+}
+
+.trasparent-button-3:active {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:focus {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:hover {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:visited {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:focus-within {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:target {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:focus-visible {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3:enabled {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.trasparent-button-3::placeholder {
+	color: transparent;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.timeline-animation {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.tutorial-button {
+	color: var(--bs-body-color);
+	border-color: var(--bs-body-color);
+	background: linear-gradient(145deg, #eeeeee, #c8c8c8);
+	box-shadow: 20px 20px 60px #bdbdbd,
+		-20px -20px 60px #ffffff;
+	margin-top: 20px;
+}
+
+.tutorial-button:hover,
+.tutorial-button:active {
+	color: var(--bs-body-color) !important;
+	border-color: var(--bs-body-color) !important;
+}
+
+.tutorial-button:active {
+	background: linear-gradient(145deg, #c8c8c8, #eeeeee);
+}
+
+.tutorial-text {
+	vertical-align: middle;
+}
+
+.pagination-dot {
+	width: 7px;
+	height: 7px;
+	background-color: #808080;
+	background-color: #c8c8c8;
+	margin-top: 15px;
+	margin-right: 2px;
+	margin-left: 2px;
+	border-radius: 100%;
+}
+
+.pagination-dot.selected {
+	background-color: #808080;
+}

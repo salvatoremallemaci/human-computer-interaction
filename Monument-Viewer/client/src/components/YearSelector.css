@@ -1,0 +1,172 @@
+:root {
+	--spazio-da-sx: 0%;
+	--offset: 0px;
+}
+
+.selected-year {
+	margin-top: -160px;
+}
+
+.tick-track {
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	bottom: 90px;
+	width: auto;
+}
+
+.years-tick-track {
+	position: absolute;
+	left: 22px;
+	right: 22px;
+	bottom: 65px;
+	width: auto;
+}
+
+.tick {
+	position: absolute;
+	top: 0;
+	left: var(--spazio-da-sx);
+	padding: 0;
+}
+
+.tick-year {
+	position: absolute;
+	top: 0;
+	left: calc(var(--spazio-da-sx) + var(--offset));
+	padding: 0;
+	font-size: x-small;
+}
+
+/*generated with Input range slider CSS style generator (version 20211225)
+https://toughengineer.github.io/demo/slider-styler*/
+input[type=range].year-selector {
+	height: 2em;
+	background-color: transparent;
+	-webkit-appearance: none;
+}
+
+input[type=range].year-selector:hover {
+	cursor: pointer;
+}
+
+/*progress support*/
+input[type=range].year-selector.slider-progress {
+	--range: calc(var(--max) - var(--min));
+	--ratio: calc((var(--value) - var(--min)) / var(--range));
+	--sx: calc(0.5 * 1em + var(--ratio) * (100% - 1em));
+}
+
+input[type=range].year-selector:focus {
+	outline: none;
+}
+
+/*webkit*/
+input[type=range].year-selector::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 1em;
+	height: 2em;
+	border-radius: 1em;
+	background: linear-gradient(to right bottom, #FFFFFF, #DEDEDE);
+	border: none;
+	box-shadow: 0 0 2px black;
+	margin-top: calc(max((1em - 1px - 1px) * 0.5, 0px) - 2em * 0.5);
+}
+
+input[type=range].year-selector::-webkit-slider-runnable-track {
+	height: 1em;
+	border: 1px solid #b2b2b2;
+	border-radius: 0.5em;
+	background: #FAFAFA;
+	box-shadow: none;
+}
+
+input[type=range].year-selector::-webkit-slider-thumb:hover {
+	background: linear-gradient(to right, #FFFFFF, #DEDEDE);
+}
+
+input[type=range].year-selector::-webkit-slider-thumb:active {
+	background: linear-gradient(to right, #FFFFFF, #DEDEDE);
+}
+
+input[type=range].year-selector.slider-progress::-webkit-slider-runnable-track {
+	background: linear-gradient(to right, #D8D8D8, #D2D2D2) 0/var(--sx) 100% no-repeat, #FAFAFA;
+}
+
+/*mozilla*/
+input[type=range].year-selector::-moz-range-thumb {
+	width: 1em;
+	height: 2em;
+	border-radius: 1em;
+	background: linear-gradient(to right bottom, #FFFFFF, #DEDEDE);
+	border: none;
+	box-shadow: 0 0 2px black;
+}
+
+input[type=range].year-selector::-moz-range-track {
+	height: max(calc(1em - 1px - 1px), 0px);
+	border: 1px solid #b2b2b2;
+	border-radius: 0.5em;
+	background: #FAFAFA;
+	box-shadow: none;
+}
+
+input[type=range].year-selector::-moz-range-thumb:hover {
+	background: linear-gradient(to right, #FFFFFF, #DEDEDE);
+}
+
+input[type=range].year-selector::-moz-range-thumb:active {
+	background: linear-gradient(to right, #FFFFFF, #DEDEDE);
+}
+
+input[type=range].year-selector.slider-progress::-moz-range-track {
+	background: linear-gradient(to right, #D8D8D8, #D2D2D2) 0/var(--sx) 100% no-repeat, #FAFAFA;
+}
+
+/*ms*/
+input[type=range].year-selector::-ms-fill-upper {
+	background: transparent;
+	border-color: transparent;
+}
+
+input[type=range].year-selector::-ms-fill-lower {
+	background: transparent;
+	border-color: transparent;
+}
+
+input[type=range].year-selector::-ms-thumb {
+	width: 1em;
+	height: 2em;
+	border-radius: 1em;
+	background: linear-gradient(to right bottom, #FFFFFF, #DEDEDE);
+	border: none;
+	box-shadow: 0 0 2px black;
+	margin-top: 0;
+	box-sizing: border-box;
+}
+
+input[type=range].year-selector::-ms-track {
+	height: 1em;
+	border-radius: 0.5em;
+	background: #FAFAFA;
+	border: 1px solid #b2b2b2;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+input[type=range].year-selector::-ms-thumb:hover {
+	background: linear-gradient(to right, #FFFFFF, #DEDEDE);
+}
+
+input[type=range].year-selector::-ms-thumb:active {
+	background: linear-gradient(to right, #FFFFFF, #DEDEDE);
+}
+
+input[type=range].year-selector.slider-progress::-ms-fill-lower {
+	height: max(calc(1em - 1px - 1px), 0px);
+	border-radius: 0.5em 0 0 0.5em;
+	margin: -1px 0 -1px -1px;
+	background: linear-gradient(to right, #D8D8D8, #D2D2D2);
+	border: 1px solid #b2b2b2;
+	border-right-width: 0;
+}

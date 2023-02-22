@@ -1,0 +1,70 @@
+
+.Suggest{
+	background-color: rgba(204, 202, 202, 0.9); /* Black w/opacity */
+	color: black;
+	border-color: rgba(204, 202, 202, 0.9); /* Black w/opacity */;
+	width: 100%;
+}
+.overlayInitial {
+	/* Height & width depends on how you want to reveal the overlay (see JS below) */   
+	height: 100%;
+	width: 75%;
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: -75%;
+	top: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	backdrop-filter: blur(100px);
+  }
+
+  .overlayFinal {
+	/* Height & width depends on how you want to reveal the overlay (see JS below) */   
+	height: 100%;
+	width: 75%;
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	backdrop-filter: blur(100px);
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+	position: relative;
+	top: 25%; /* 25% from the top */
+	width: 90%; /* 100% width */
+	text-align: center; /* Centered text/links */
+	margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .Suggest:hover, #Suggest:focus {
+	color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .closebtn {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: -15px;
+	right: 25px;
+	font-size: 60px;
+  }
+
+.no-padding {
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar-title {
+	margin-top: -140px;
+	margin-bottom: 30px;
+}
+
+.hamburger-menu {
+	color: white;
+}
